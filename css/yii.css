@@ -1,0 +1,205 @@
+/*grid*/
+.grid-view {
+    padding: 20px 0 20px 0;
+    margin: 0;
+    background-color: white;
+    font-size: 14px;
+}
+.grid-view .summary {
+    text-align: left;
+    font-size: 12px;
+    margin: 0 0 15px 5px;
+    padding: 0;
+}
+.grid-view table.items {
+    border: none;
+}
+.grid-view table.items th{
+    background: none;
+    background-color: #ec9232;  
+    padding: 12px 0;
+}
+.purple-theme .grid-view table.items th{
+    background-color: #4d5bf9 !important;
+}
+.grid-view table.items th a {
+    color: white;
+}
+.grid-view table.items tr.filters td {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.grid-view table.items tr.filters td input {
+    height: 32px;
+}
+.grid-view table.items td {
+    background-color: white;
+    padding: 10px 15px;
+}
+.grid-view table.items td a {
+    color: #7489a1;
+}
+.grid-view table.items td.empty {
+    font-size: 18px !important;
+    text-align: center;
+}
+.grid-view table.items th, .grid-view table.items td {
+    border: none;
+    border-bottom: solid #f3f2f2 1px;
+}
+.grid-view .pager {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.grid-view .pager .yiiPager {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.grid-view .pager ul.yiiPager a:link, .grid-view .pager ul.yiiPager a:visited {
+    border: none;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: #7489a1;
+    border-radius: 0px;
+}
+.grid-view .pager ul.yiiPager .selected a {
+    background-color: #ec9232;  
+    color: white !important;
+    font-weight: bold;
+    border-radius: 0px;
+}
+.purple-theme .grid-view .pager ul.yiiPager .selected a {
+    background-color: #4d5bf9 !important;
+}
+.grid-view .pager ul.yiiPager .hidden a {
+    cursor: not-allowed;
+}
+
+/*list*/
+.list-view .summary {
+    text-align: left;
+    font-size: 12px;
+    margin: 0 0 15px 5px;
+    padding: 0;
+}
+.list-view .items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+.list-view .items .view {
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.list-view .pager {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.list-view .pager .yiiPager {
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.list-view .pager ul.yiiPager a:link, .grid-view .pager ul.yiiPager a:visited {
+    border: none;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+    color: #7489a1;
+}
+.list-view .pager ul.yiiPager .selected a {
+    background-color: #ec9232;  
+    color: #f3f2f2;
+    font-weight: bold;
+}
+.purple-theme .list-view .pager ul.yiiPager .selected a {
+    background-color: #4d5bf9 !important;
+}
+.list-view .pager ul.yiiPager .hidden a {
+    cursor: not-allowed;
+}
+
+/*detail*/
+.detail-view table {
+    text-align: left;
+}
+.detail-view table tbody tr th {
+    text-align: right;
+    padding: 5px 10px;
+}
+
+/*breadcrumbs*/
+.breadcrumbs {
+    padding-top: 25px;
+    padding-left: 30px;
+    height: 140px;
+    background-color: #ec9232;
+    margin-bottom: -100px;
+    color: white;
+    /*    background-image: url(.././images/bg-cover.jpg);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat; */
+}
+.purple-theme .breadcrumbs {
+    background-color: #4d5bf9 !important;
+}
+.breadcrumbs a {
+    text-decoration: none;
+    color: white;
+}
+.breadcrumbs span {
+    font-weight: bold;
+
+}
+
+/*portlet*/
+.portlet {
+    padding: 0;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.portlet .portlet-decoration {
+    border-radius: 7px 7px 0 0;
+    padding: 15px 20px;
+    border-bottom: solid #f3f2f2 1px;
+    background-color: #ec9232;
+    color: white;
+}
+.purple-theme .portlet .portlet-decoration {
+    background-color: #4d5bf9 !important;
+}
+.portlet .portlet-content .operations {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+.portlet .portlet-content .operations li {
+    margin: 0;
+    padding: 10px 20px;
+}
+.portlet .portlet-content .operations li a:hover  {
+    margin: 0;
+    /*background-color: #eb552a;*/  
+    color: #ec9232;
+}
+.purple-theme .portlet .portlet-content .operations li a:hover  {
+    color: #4d5bf9 !important;
+}
+.portlet .portlet-content .operations li a {
+    text-decoration: none;
+    color: #7489a1;
+}
+

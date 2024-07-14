@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+/*#7489a1 for font-color with white background*/
+/*#eb552a for background-color with white font-color*/
+/*#f3f2f2 for backgroud-color*/
+
+html, body {
+    background: #f3f2f2;
+    font-family: 'Didact Gothic', sans-serif !important;
+    color: #7489a1;
+    padding: 0;
+    margin: 0;
+
+}
+
+.page-content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.box {
+    background-color: white;
+    /*border-radius: 7px;*/
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+.box .box-header {
+    height: 120px;
+    background-image: url(.././images/bg-cover.jpg);
+    background-position-y: -200px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: grid;
+    align-content: center;
+    justify-content: start;
+    padding: 0 20px;
+    /*border-radius: 7px 7px 0 0;*/
+}
+.box .box-header .box-title {
+    color: #7489a1;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+.box .box-body {
+    padding: 15px 30px;
+}
+.box .box-footer {
+    display: grid;
+    align-content: center;
+    /*justify-content: start;*/
+    padding: 0px 20px 1px 20px;
+}
+
+.custom-form-group {
+    padding: 7px 0;
+}
+.custom-form-group .custom-form {
+    border: none;
+    border-bottom: solid #7489a1 1.5px;
+    width: 100%;
+    height: 2.5em;
+    margin: 0;
+}
+
+.user-type-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-type-button label {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /*border: solid black 1px;*/
+    padding: 2px
+}
+
+.user-type-button input[type="radio"] {
+    display: none;
+}
+
+.user-type-button input[type="radio"]:checked + span{
+    background-color: #ee9835;
+    color: white;
+}
+
+.user-type-button span {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ee9835;
+    /*border-radius: 5px;*/
+    cursor: pointer;
+    color: #ee9835;
+}

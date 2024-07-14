@@ -1,0 +1,33 @@
+@media screen and (min-width: 1200px) {
+    .col-lg-6 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
+@media screen and (min-width: 992px) {
+
+}
+@media screen and (min-width: 668px) {
+    .col-1, col-2, col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, col-11 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
+@media screen and (min-width: 481px) {
+    .col-1, col-2, col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, col-11 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
+@media screen and (min-width: 414px) {
+    .col-1, col-2, col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, col-11 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
+@media screen and (min-width: 375px) {
+    .col-1, col-2, col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, col-11 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
+@media screen and (min-width: 320px) {
+    .col-1, col-2, col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, col-11 {
+        grid-column: span 12; /* Span the full width of the grid */
+    }
+}
